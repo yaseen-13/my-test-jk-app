@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>maven-web-application</artifactId>
+	<artifactId>Beanie-Bean-web-application</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
@@ -103,13 +103,13 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://34.220.101.124:8081/repository/capOne-ci-snapshot/</url>
+	      <url>http://52.70.203.243:8081/repository/nexus-repos/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>web-app</finalName>
+		<finalName>Beanie-app</finalName>
 		
 		<plugins>
 			<plugin>
