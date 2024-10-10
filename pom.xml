@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Releases Nexus Repository</name>
-	      <url>http://3.142.247.41:8081/repository/jenkins-repo/</url>
+	      <url>http://3.129.89.186:8081/repository/idontknow-repo/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.142.247.41:8081/repository/jenkins-repo/</url>
+	      <url>http://3.129.89.186:8081/repository/idontknow-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
