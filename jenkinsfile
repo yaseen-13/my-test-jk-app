@@ -2,7 +2,7 @@ node{
     def mavenHome = tool name: 'maven3.9.8'
     stage('1CloneCode'){
     //    git "https://github.com/nfestaclass04/maven-web-application.git"
-        git branch: 'main', url: 'https://github.com/yaseen-13/my-test-jk-app.git'
+        git branch: 'bug-fix', url: 'https://github.com/yaseen-13/my-test-jk-app.git'
     }
     
     stage('2Test&Build'){
