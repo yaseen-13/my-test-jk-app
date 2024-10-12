@@ -13,19 +13,7 @@ node{
    stage('3UploadArtifacts'){
         sh "${mavenHome}/bin/mvn deploy"
     }
-
-    /*
-    stage('5DeploymentToUat'){
-        deploy adapters: [tomcat9(credentialsId: 'tomcat-jenkins-0', path: '', url: 'http://18.188.198.25:8080/')], contextPath: null, war: 'target/*war'
-    }
-    
-    stage('6Approval'){
-        timeout(time:11, unit:'HOURS'){
-            input message: 'Application is now ready for deployment to production. Please, review and provide your Approval'
-        }
-    }
-    */
-    
+ 
     stage('7DeploymentToProd'){
         deploy adapters: [tomcat9(credentialsId: 'tomcat-cred', path: '', url: 'http://3.128.34.244:8080/')], contextPath: null, war: 'target/*war'
     }
