@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.59.82.29:8081/repository/idontknow-repo/</url>
+	      <url>http://18.223.212.232:8081/repository/idontknow-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
