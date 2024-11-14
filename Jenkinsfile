@@ -16,7 +16,6 @@ pipeline{
                 sh "mvn clean install"
             }
         }
-        /*
         stage('4UploadArtifacts'){
             steps{
                 sh "echo 'pushing Artifacts to remote repository'"
@@ -29,7 +28,6 @@ pipeline{
                 deploy adapters: [tomcat9(credentialsId: 'tomcat-cred', path: '', url: 'http://3.128.25.158:8080/')], contextPath: null, war: 'target/*war' 
             }
         }
-        */
     }
 }
 
