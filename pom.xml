@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Releases Nexus Repository</name>
-	      <url>http://3.141.6.18:8081/repository/idontknow-repo/</url>
+	      <url>http://3.15.233.180:8081/repository/remote-repo/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.223.212.232:8081/repository/idontknow-repo/</url>
+	      <url>http://3.15.233.180:8081/repository/remote-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
